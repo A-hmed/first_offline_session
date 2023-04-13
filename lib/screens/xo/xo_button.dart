@@ -18,6 +18,7 @@ class XoButton extends StatelessWidget {
                   onClick(index);
                 }, child: Text("$symbol"
             ,style: const TextStyle(fontSize: 24,
+                  color: Colors.grey,
                   fontWeight: FontWeight.bold),)
             )
         )
