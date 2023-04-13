@@ -11,9 +11,11 @@ class _CalculatorState extends State<Calculator> {
   String lhs = "";
   String operator = "";
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red,
       appBar: AppBar(
         title: Text("Calculator"),
       ),
