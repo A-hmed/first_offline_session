@@ -11,6 +11,7 @@ class XoButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
         child: Container(
+          color: Colors.red,
             margin: const EdgeInsets.all(4),
             child: ElevatedButton(
                 onPressed: () {
